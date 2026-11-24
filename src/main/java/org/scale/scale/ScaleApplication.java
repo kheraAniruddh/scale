@@ -2,12 +2,14 @@ package org.scale.scale;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 
 @SpringBootApplication
+@ConfigurationPropertiesScan
 public class ScaleApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ScaleApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ScaleApplication.class, args);
+    }
 
 }
