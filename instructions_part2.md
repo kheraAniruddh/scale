@@ -3,7 +3,7 @@
 1. use url = "https://litellm-proxy.ml.scale.com/v1/chat/completions"
    headers = {
    "Content-Type": "application/json",
-   "Authorization": "Bearer sk-mBqGiIeQI72-Y2mR1SKS_Q"
+   "Authorization": "Bearer -zxxxxxxxxxxxxxx"
    }
    data = {
    "model": "openai/gpt-4o",
